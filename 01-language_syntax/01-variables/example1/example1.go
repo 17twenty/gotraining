@@ -1,7 +1,10 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/m4PJ0FpSwX
+
+// The playground is actually a 64-bit env with 32-bit pointers
+// The os/arch combo is named nacl/amd64p32
 
 // Sample program to show how to declare variables.
 package main
@@ -21,7 +24,7 @@ func main() {
 	fmt.Printf("var c float64 \t %T [%v]\n", c, c)
 	fmt.Printf("var d bool \t %T [%v]\n\n", d, d)
 
-	// Declare variables and initalize.
+	// Declare variables and initialize.
 	// Using the short variable declaration operator.
 	aa := 10
 	bb := "hello"

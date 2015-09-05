@@ -1,7 +1,7 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/cK1_GFyDOo
+// http://play.golang.org/p/VYqb11RiWr
 
 // Sample program to show the basic concept of using a pointer
 // to share data.
@@ -25,7 +25,7 @@ func main() {
 	}
 
 	//** We don't need to include all the fields when specifying field
-	// names with a composite literal.
+	// names with a struct literal.
 
 	// Pass the "address of" the bill value.
 	display(&bill)
@@ -45,7 +45,7 @@ func increment(logins *int) {
 }
 
 // display declares u as user pointer variable whose value is always an address
-// and points to values of type dog.
+// and points to values of type user.
 func display(u *user) {
 	fmt.Printf("%p\t%+v\n", u, *u)
 }

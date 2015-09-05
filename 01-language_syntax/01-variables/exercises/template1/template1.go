@@ -1,13 +1,13 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // https://play.golang.org/p/1xUWjHMB3I
 
-// Declare three variables that are initalized to their zero value and three
+// Declare three variables that are initialized to their zero value and three
 // declared with a literal value. Declare variables of type string, int and
 // bool. Display the values of those variables.
 //
-// Declare a new variable of type float32 and initalize the variable by
+// Declare a new variable of type float32 and initialize the variable by
 // converting the literal value of Pi (3.14).
 package main
 
@@ -17,7 +17,7 @@ func main() {
 
 	// Display the value of those variables.
 
-	// Declare variables and initalize.
+	// Declare variables and initialize.
 	// Using the short variable declaration operator.
 
 	// Display the value of those variables.

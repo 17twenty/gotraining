@@ -1,9 +1,9 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/asM7GXfJNk
 
-// Declare and initalize a variable of type int with the value of 20. Display
+// Declare and initialize a variable of type int with the value of 20. Display
 // the _address of_ and _value of_ the variable.
 //
 // Declare and initialize a pointer variable of type int that points to the last

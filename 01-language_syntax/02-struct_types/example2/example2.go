@@ -1,20 +1,18 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/N2DjPVAWLJ
+// https://play.golang.org/p/NtPpvGEN4W
 
-// Sample program to show how to declare and initalize anonymous
+// Sample program to show how to declare and initialize anonymous
 // struct types.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // main is the entry point for the application.
 func main() {
 	// Declare a variable of an anonymous type and init
-	// using a composite literal.
+	// using a struct literal.
 	e := struct {
 		flag    bool
 		counter int16

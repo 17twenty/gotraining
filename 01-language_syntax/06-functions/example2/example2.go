@@ -1,7 +1,7 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/wPVvgwPlHw
+// http://play.golang.org/p/jJl5GV_LdI
 
 // Sample program to show how we can use the blank IDentifier to ignore return values.
 package main
@@ -12,25 +12,23 @@ import (
 	"fmt"
 )
 
-type (
-	// user is a struct type that declares user information.
-	user struct {
-		ID   int
-		Name string
-	}
+// user is a struct type that declares user information.
+type user struct {
+	ID   int
+	Name string
+}
 
-	// updateStats provIDes update stats.
-	updateStats struct {
-		Modified int
-		Duration float64
-		Success  bool
-		Message  string
-	}
-)
+// updateStats provIDes update stats.
+type updateStats struct {
+	Modified int
+	Duration float64
+	Success  bool
+	Message  string
+}
 
 // main is the entry point for the application.
 func main() {
-	// Declare and initalize a value of type user.
+	// Declare and initialize a value of type user.
 	u := user{
 		ID:   1432,
 		Name: "Betty",

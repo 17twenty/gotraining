@@ -1,12 +1,12 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/pKgSRPXBqC
+// http://play.golang.org/p/oijJdRW3cD
 
 // Declare an interface named speaker with a method named sayHello. Declare a struct
 // named English that represents a person who speaks english and declare a struct named
 // Chinese for someone who speaks chinese. Implement the speaker interface for each
-// struct using a pointer receiver and these literal strings "Hello World" and "你好世界".
+// struct using a value receiver and these literal strings "Hello World" and "你好世界".
 // Declare a variable of type speaker and assign the _address of_ a value of type English
 // and call the method. Do it again for a value of type Chinese.
 //
@@ -29,22 +29,22 @@ package main
 // Declare a method named sayHello for the chinese type
 // using a value receiver. "你好世界"
 
-// sayHello accepts values of the interface type.
+// sayHello accepts values of the speaker type.
 func sayHello( /* Declare parameter */ ) {
-	// Call the sayHello() method from the interface parameter.
+	// Call the sayHello() method from the speaker parameter.
 }
 
 // main is the entry point for the application.
 func main() {
-	// Declare a variable of the interface type set to its zero value.
+	// Declare a variable of the speaker type set to its zero value.
 
 	// Declare a variable of type english and assign it to
-	// the interface variable.
-	// Call the sayHello() method from the interface variable.
+	// the speaker variable.
+	// Call the sayHello() method from the speaker variable.
 
 	// Declare a variable of type chinese and assign it to
-	// the interface variable.
-	// Call the sayHello() method from the interface variable.
+	// the speaker variable.
+	// Call the sayHello() method from the speaker variable.
 
 	// Call the sayHello function passing each concrete type.
 }

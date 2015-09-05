@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/mhKlxSyuxr
 
@@ -20,7 +20,7 @@ func main() {
 	// Declare a variable of type int64 and assign a value.
 	nanosecond := int64(10)
 
-	// Attemped to assign a variable of type int64 (base type of Duration) to
+	// Attempted to assign a variable of type int64 (base type of Duration) to
 	// a variable of type Duration.
 	// duration = nanosecond
 

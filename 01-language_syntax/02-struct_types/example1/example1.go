@@ -1,14 +1,12 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/Sl-vYp7pp_
+// https://play.golang.org/p/TAX6NpPaEu
 
-// Sample program to show how to declare and initalize struct types.
+// Sample program to show how to declare and initialize struct types.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // example represents a type with different fields.
 type example struct {
@@ -27,7 +25,7 @@ func main() {
 	fmt.Printf("%+v\n", e1)
 
 	// Declare a variable of type example and init using
-	// a composite literal.
+	// a struct literal.
 	e2 := example{
 		flag:    true,
 		counter: 10,

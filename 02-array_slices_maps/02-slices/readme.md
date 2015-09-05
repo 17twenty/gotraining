@@ -27,21 +27,21 @@ http://www.goinggo.net/2013/12/three-index-slices-in-go-12.html
 
 ## Code Review
 
-[Declare and Length](example1/example1.go) ([Go Playground](http://play.golang.org/p/fWJR3Kln4Y))
+[Declare and Length](example1/example1.go) ([Go Playground](https://play.golang.org/p/sq3zBRbuJU))
 
-[Reference Types](example2/example2.go) ([Go Playground](http://play.golang.org/p/DB8hwJ0hw9))
+[Reference Types](example2/example2.go) ([Go Playground](http://play.golang.org/p/e-U8HPnmIL))
 
-[Taking slices of slices](example3/example3.go) ([Go Playground](http://play.golang.org/p/BoNloVfW37))
+[Appending slices](example4/example4.go) ([Go Playground](https://play.golang.org/p/IHKg8PuSj4))
 
-[Appending slices](example4/example4.go) ([Go Playground](http://play.golang.org/p/UzmwiMWDwd))
+[Taking slices of slices](example3/example3.go) ([Go Playground](http://play.golang.org/p/AFb1SZ_1WZ))
 
-[Strings and slices](example5/example5.go) ([Go Playground](http://play.golang.org/p/6CAkumo0HI))
+[Strings and slices](example5/example5.go) ([Go Playground](https://play.golang.org/p/W3c_iWsvqj))
+
+[Variadic functions](example6/example6.go) ([Go Playground](http://play.golang.org/p/5uDVuormwB))
 
 ## Advanced Code Review
 
-[Practical use of slices](advanced/example1/example1.go) ([Go Playground](http://play.golang.org/p/-qQgO7NbLm))
-
-[Three index slicing](advanced/example2/example2.go) ([Go Playground](http://play.golang.org/p/dJk2eycWhH))
+[Three index slicing](advanced/example1/example1.go) ([Go Playground](http://play.golang.org/p/TepZptJati))
 
 ## Exercies
 
@@ -49,14 +49,14 @@ http://www.goinggo.net/2013/12/three-index-slices-in-go-12.html
 
 **Part A** Declare a nil slice of integers. Create a loop that appends 10 values to the slice. Iterate over the slice and display each value.
 
-**Part B** Declare a slice of five strings and initialize the slice with string literal values. Display all the elements. Take a slice of the first and second indexes and display the index position and value of each element in the new slice.
+**Part B** Declare a slice of five strings and initialize the slice with string literal values. Display all the elements. Take a slice of index one and two and display the index position and value of each element in the new slice.
 
-[Template](exercises/template1/template1.go) ([Go Playground](http://play.golang.org/p/5skpU4iFL5)) | 
-[Answer](exercises/exercise1/exercise1.go) ([Go Playground](http://play.golang.org/p/lABnNlP7jm))
+[Template](exercises/template1/template1.go) ([Go Playground](http://play.golang.org/p/mPKmyGNR2L)) | 
+[Answer](exercises/exercise1/exercise1.go) ([Go Playground](http://play.golang.org/p/BSNAUj2pd-))
 
 ___
 [![Ardan Labs](../../00-slides/images/ggt_logo.png)](http://www.ardanlabs.com)
 [![Ardan Studios](../../00-slides/images/ardan_logo.png)](http://www.ardanstudios.com)
 [![GoingGo Blog](../../00-slides/images/ggb_logo.png)](http://www.goinggo.net)
 ___
-All material is licensed under the [GNU Free Documentation License](https://github.com/ArdanStudios/gotraining/blob/master/LICENSE).
+All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

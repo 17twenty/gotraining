@@ -1,15 +1,13 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// https://play.golang.org/p/UkrDXkk-Ch
+// https://play.golang.org/p/3bTo41YmK9
 
 // Sample program to show how to embed a type into another type and
 // the relationship between the inner and outer type.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // user defines a user in the program.
 type user struct {
@@ -42,7 +40,7 @@ func main() {
 		level: "super",
 	}
 
-	// We can acces the inner type's method directly.
+	// We can access the inner type's method directly.
 	ad.user.notify()
 
 	// The inner type's method is promoted.

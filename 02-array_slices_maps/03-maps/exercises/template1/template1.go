@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/-JBSUoux-v
 
@@ -13,7 +13,7 @@ package main
 func main() {
 	// Declare and make a map of integer type values.
 
-	// Intialize some data into the map.
+	// Initialize some data into the map.
 
 	// Display each key/value pair.
 }

@@ -16,32 +16,26 @@ http://www.goinggo.net/2014/05/methods-interfaces-and-embedded-types.html
 
 ## Code Review
 
-[Declaring Fields](example1/example1.go) ([Go Playground](https://play.golang.org/p/z_6oLQpjAh))
+[Declaring Fields](example1/example1.go) ([Go Playground](https://play.golang.org/p/Bweb5f-xdM))
 
-[Embedding types](example2/example2.go) ([Go Playground](https://play.golang.org/p/UkrDXkk-Ch))
+[Embedding types](example2/example2.go) ([Go Playground](https://play.golang.org/p/3bTo41YmK9))
 
-[Embedded types and interfaces](example3/example3.go) ([Go Playground](https://play.golang.org/p/BgEoThS7u9))
+[Embedded types and interfaces](example3/example3.go) ([Go Playground](https://play.golang.org/p/_MiwwXZbVI))
 
-[Outer and inner type interface implementations](example4/example4.go) ([Go Playground](https://play.golang.org/p/jfOfrRMPZR))
+[Outer and inner type interface implementations](example4/example4.go) ([Go Playground](https://play.golang.org/p/QSjaJocj5S))
 
 ## Exercises
 
 ### Exercise 1
 
-**Part A** Declare a struct type named animal with two fields name and age. Declare a struct type named dog with the field bark. Embed the animal type into the dog type. Declare and initalize a value of type dog. Display the value of the variable.
+Copy the code from the template. Declare a new type called hockey which embeds the sports type. Implement the matcher interface for hockey. When implementing the Search method for hockey, call into the Search method for the embedded sport type to check the embedded fields first. Then create two hockey values inside the slice of matchers and perform the search.
 
-**Part B** Add a method to the animal type using a pointer reciever named yelp which displays the literal string "Not Implemented". Call the method from the value of type dog.
-
-**Part C** Add an interface named yelper with a single method called yelp. Declare a value of type yelper and assign the address of the value of type dog. Call the method yelp.
-
-**Part D** Implement the yelper interface for the dog type. Be creative with the bark field. Call the method yelp again from the value of type yelper.
-
-[Template](exercises/template1/template1.go) ([Go Playground](http://play.golang.org/p/a-Nzng_E6Z)) | 
-[Answer](exercises/exercise1/exercise1.go) ([Go Playground](http://play.golang.org/p/hvVA4zB9Bf))
+[Template](exercises/template1/template1.go) ([Go Playground](http://play.golang.org/p/c9Qrsq8QFe)) | 
+[Answer](exercises/exercise1/exercise1.go) ([Go Playground](https://play.golang.org/p/4uJObo_ItN))
 
 ___
 [![Ardan Labs](../../00-slides/images/ggt_logo.png)](http://www.ardanlabs.com)
 [![Ardan Studios](../../00-slides/images/ardan_logo.png)](http://www.ardanstudios.com)
 [![GoingGo Blog](../../00-slides/images/ggb_logo.png)](http://www.goinggo.net)
 ___
-All material is licensed under the [GNU Free Documentation License](https://github.com/ArdanStudios/gotraining/blob/master/LICENSE).
+All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

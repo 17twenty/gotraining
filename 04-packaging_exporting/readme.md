@@ -5,7 +5,7 @@ Packages contain the basic unit of compiled code. They define a scope for the in
 ## Notes
 
 * Code in go is complied into packages and then linked together.
-* Identifiers are either be exported or unexported from a package.
+* Identifiers are exported (or remain unexported) based on letter-case.
 * We import packages to access exported identifiers.
 * Any package can use a value of an unexported type.
 
@@ -27,9 +27,7 @@ http://www.goinggo.net/2013/08/organizing-code-to-support-go-get.html
 
 [Unexported struct type fields](example4/example4.go)
 
-[Exported embedded types](example5/example5.go)
-
-[Unexported embedded types](example6/example6.go)
+[Unexported embedded types](example5/example5.go)
 
 ## Exercises
 
@@ -46,4 +44,4 @@ ___
 [![Ardan Studios](../00-slides/images/ardan_logo.png)](http://www.ardanstudios.com)
 [![GoingGo Blog](../00-slides/images/ggb_logo.png)](http://www.goinggo.net)
 ___
-All material is licensed under the [GNU Free Documentation License](https://github.com/ArdanStudios/gotraining/blob/master/LICENSE).
+All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

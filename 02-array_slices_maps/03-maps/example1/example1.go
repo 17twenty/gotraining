@@ -1,15 +1,13 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// http://play.golang.org/p/voXAyiydFf
+// https://play.golang.org/p/wVgTXEVimA
 
-// Sample program to show how to declare, initalize and iterate
+// Sample program to show how to declare, initialize and iterate
 // over a map. Shows how iterating over a map is random.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // user defines a user in the program.
 type user struct {
@@ -20,14 +18,14 @@ type user struct {
 // main is the entry point for the application.
 func main() {
 	// Declare and make a map that stores values
-	// of type user with a key of type integer.
-	users := make(map[int]user)
+	// of type user with a key of type string.
+	users := make(map[string]user)
 
 	// Add key/value pairs to the map.
-	users[1] = user{"Roy", "Rob"}
-	users[2] = user{"Henry", "Ford"}
-	users[3] = user{"Mickey", "Mouse"}
-	users[4] = user{"Michael", "Jackson"}
+	users["Rob"] = user{"Roy", "Rob"}
+	users["Ford"] = user{"Henry", "Ford"}
+	users["Mouse"] = user{"Mickey", "Mouse"}
+	users["Jackson"] = user{"Michael", "Jackson"}
 
 	// Iterate over the map.
 	for key, value := range users {

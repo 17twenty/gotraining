@@ -1,132 +1,98 @@
-## Go Training Classes
+## Hardcore Go
+
 [Click Here To Review The Course Material](00-slides/readme.md)
 
-## Bootcamp Tour
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Although it borrows ideas from existing languages, it has a unique and simple nature that make Go programs different in character from programs written in other languages. It balances the capabilities of a low-level systems language with some high-level features you see in modern languages today. This creates a programming environment that allows you to be incredibly productive, performant and fully in control; in Go, you can write less code and do so much more.
 
-Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Although it borrows ideas from existing languages, it has unusual properties that make effective Go programs different in character from programs written in its relatives. It balances the efficiency of a lower level systems language with the most important features of a high-level modern language. This creates a programming environment that allows you to be incredibly productive, performant and fully in control; in Go you can write less code and do so much more.
+## What You Will Learn
 
-The Ardan Labs Go Bootcamp is a 3 day class providing a comprehensive and idiomatic view of the Go programming language. The class covers topics ranging from language syntax, OOP, concurrency, channels, testing, debugging and more. Great for anyone interested in getting a jump start on learning Go or wanting to understand more about the language and internals.
+Hardcore Go is a 3 day class for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. This class provides an intensive, comprehensive and idiomatic view of the language. We focus on both the specification and implementation of the language, including topics ranging from language syntax, Go’s type system, concurrency, channels, testing and more. We believe this class is perfect for anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals.
 
-[Bootcamp Tour](http://www.ardanlabs.com/go-bootcamp-tour)
+## Roadmap
 
-## Training
+* Language Syntax
+* Arrays, Slices and Maps
+* Methods, Interfaces and Embedding
+* Packaging and Exporting
+* Using Pointers
+* Composition
+* Error Handling
+* Concurrency, Race Conditions and Channels
+* Concurrency Patterns
+* Testing and Debugging
+* Standard Library
+* Reflection
+* HTTP
 
-Training is broken into hourly and daily classes. The length of the class will determine which material is covered and whether exercises are used and to what extent.
+## Minimal Qualified Student
 
-_Note: This material has been designed to be taught in a classroom environment. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class._
+The material has been designed to be taught in a classroom environment. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class. Students with the following minimal background will get the most out of the class.
 
-**Minimal Qualified Student:**
+* Studied CS in school or has a minimum of two years of experience programming full time professionally.
+* Familiar with structural and object oriented programming styles.
+* Has worked with arrays, lists, queues and stacks.
+* Understands processes, threads and synchronization at a high level.
+* Operating Systems
+	* Has worked with a command shell.
+	* Knows how to maneuver around the file system.
+	* Understands what environment variables are.
 
-* Programming
-	* Studied CS in school or has a minimum of two years of experience programming full time professionally.
-	* Familiar with structural and object oriented programming styles.
-	* Has worked with arrays, lists, queues and stacks.
-	* Understands processes, threads and synchronization at a high level.
-	* Operating Systems
-    	* Has worked with a command shell.
-    	* Knows how to maneuver around the file system.
-    	* Understands what environment variables are.
+## Other Languages
 
-**What a student is expected to learn:**
+[Korean](https://github.com/subaklab/gotraining/)
 
-* Thorough understanding of the language syntax and implementation.
-* A feel for writing code in an idiomatic style and syntax.
-* Walk away with patterns and techniques for solving common problems. 
+## Before You Come To Class
 
-## Getting Started
-
-**Installation Help:**  
+**Install Go On Mac OS X:**  
 http://www.goinggo.net/2013/06/installing-go-gocode-gdb-and-liteide.html
 
-**Start Learning:**  
+**Install Go On Windows:**  
+http://www.wadewegner.com/2014/12/easy-go-programming-setup-for-windows/
+
+**Starter Material:**  
+[Quick Tour](00-slides/quick_tour)
+
+**Learn More:**  
 http://golang.org/  
 https://tour.golang.org/welcome/1  
 http://www.goinggo.net/
 
-## Getting the Material
+## Go Get The Material
 
-    -- Get all the material
     go get github.com/ArdanStudios/gotraining
 
-## Classes and Pricing
+## Feedback Form
 
-* Meetups  
-* Workshops  
-* Corporate  
-* Bootcamps  
-* After Hours  
-* Conferences
+https://ardanlabs.typeform.com/to/QzRgXk
 
-If you are interested in holding an event in your area please let me know. I will work with you and your organization to help make it happen.
+## Current Classes
 
-**_Meetups:_**   
-Have us speak at one of your Meetup events for free over Google hangout.
-
-Hangout:  
-[Go Edmonton Meetup : Mar 23rd](https://edmontongo.org/)
-
-In Person:  
-[Go VA Reston Meetup : March 25th](http://www.meetup.com/Golang-Reston/events/220920355/)  
-[Go Tampa DC Meetup : April 30th](http://www.meetup.com/Go-Tampa/events/220777645/)  
-[Go DC Meetup : May 13th](http://www.meetup.com/Golang-DC/events/220450459/)
-
-**_Workshops:_**   
-Want to put on a workshop event for a couple of hours or for a full day?
-
-Open
-
-**_Corporate:_**  
-Corporate full day classes are at $5,000 USD a day plus travel expenses. Corporate and group sponsors can have as many students in the class as they like. We recommend limiting it to 25 students or less.
-
-[ACL Services - May 1st-3rd](http://www.acl.com/)
-
-**_Bootcamps:_**  
-Our bootcamp tour is in full swing. Check out all of the dates we haved scheduled.
-
-[Denver, CO : April 9th-11th](https://www.eventbrite.com/e/go-programming-bootcamp-tour-denver-april-tickets-14944810330)  
-
-[Boston, MA : May 1st-3rd](https://www.eventbrite.com/e/go-programming-bootcamp-tour-boston-may-tickets-15667846952)  
-[Denver, CO : May 1st-3rd](https://www.eventbrite.com/e/go-programming-bootcamp-denver-may-tickets-16131581996)  
-[McLean, VA : May 14th-16th](https://www.eventbrite.com/e/go-programming-bootcamp-tour-virginia-may-tickets-14946167389)  
-
-[NYC, NY : June 10th-12th](https://www.eventbrite.com/e/go-programming-bootcamp-tour-nyc-june-tickets-14946227569)  
-
-[Denver, CO : GopherCon 2015 Mon](https://www.eventbrite.com/e/go-programming-bootcamp-tour-denver-during-gophercon-july-6th-tickets-15559629270)  
-[Denver, CO : GopherCon 2015 Tue](https://www.eventbrite.com/e/go-programming-bootcamp-tour-denver-during-gophercon-july-7th-tickets-15569243025)  
-
-[Austin, TX : August TBD](https://www.eventbrite.com/e/go-programming-bootcamp-tour-austin-august-exact-dates-tbd-tickets-15559615228)  
-[Chicago, IL : September TDB](https://www.eventbrite.com/e/go-programming-bootcamp-tour-chicago-september-exact-dates-tbd-tickets-15559453745)
-
-**_After Hours:_**  
-This is our bootcamp but available during the week after work. Our current Denver After Hours class spans 5 nights over a couple of weeks for 4 hours each night.
-
-[Denver, CO : April 13th - 22nd](https://www.eventbrite.com/e/go-programming-after-hours-denver-april-tickets-15643879264)
-
-**_Conferences:_**
-You can find us at conferences being held all around the country and the world.
-
-[FluentConf, SF : April 20th-21st](http://fluentconf.com/javascript-html-2015/public/schedule/speaker/196872)  
-[MagmaConf Mexico : June 16th-19th](http://magmaconf.com/)  
-[Gophercon USA, CO - July 6th-10th](http://gophercon.com/)  
+If you are interested in holding an event in your area please let me know. I will work with you and your organization to help make it happen. I can talk in person or over Google Hangout.
 
 ## Teachers
 
-William Kennedy ([@goinggodotnet](https://twitter.com/goinggodotnet))  
-Bill is a manaing partner at Ardan Studios in Miami, FL, a mobile, web and systems development company. He is also the co-author of the book Go In Action, the author of the blog GoingGo.Net and the organizer for the Go and MongoDB meetups in Miami.
+**William Kennedy** ([@goinggodotnet](https://twitter.com/goinggodotnet))  
+_Bill is a managing partner at Ardan Studios in Miami, FL, a mobile, web and systems development company. He is also the co-author of the book Go In Action, the author of the blog GoingGo.Net and the organizer for the Go and MongoDB meetups in Miami._
 
-Kevin Gillette ([@kevingillette](https://twitter.com/kevingillette))  
-Kevin is an experienced software engineer that has been enthusiastically using Go since 2012 to develop efficient, high-reliability backend systems. With a focus on breadth of knowledge, Kevin has expertise in a variety of languages and platforms, a firm grounding in theory, as well as a keen interest in computing history.
+**Kevin Gillette** ([@kevingillette](https://twitter.com/kevingillette))  
+_Kevin is an experienced software engineer that has been enthusiastically using Go since 2012 to develop efficient, high-reliability backend systems. With a focus on breadth of knowledge, Kevin has expertise in a variety of languages and platforms, a firm grounding in theory, as well as a keen interest in computing history._
 
-Cory LaNou ([@corylanou](https://twitter.com/corylanou))  
-Cory LaNou is a full stack web developer and entrepreneur with over 17 years of experience. After 11 years of being a successful serial entrepreneur, he has joined the InfluxDB team, working on building an open source time series database, written in Go. He is active in the Go community, leading the Denver Gophers meetup, as well as mentoring students in his free time.
+**Cory LaNou** ([@corylanou](https://twitter.com/corylanou))  
+_Cory LaNou is a full stack web developer and entrepreneur with over 17 years of experience. After 11 years of being a successful serial entrepreneur, he has joined the InfluxDB team, working on building an open source time series database, written in Go. He is active in the Go community, leading the Denver Gophers meetup, as well as mentoring students in his free time._
 
-Mark Bates ([@markbates](https://twitter.com/markbates))  
-Mark Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients. At night he writes books, raises kids, and occasionally he forms a band and "tries to make it". Mark is the author of three books, "Distributed Programming with Ruby" (2009), "Programming in CoffeeScript" (2012), and "Conquering the Command Line" (2014). He also runs the weekly Golang screencast site, www.metacasts.tv.
+**Mark Bates** ([@markbates](https://twitter.com/markbates))  
+_Mark Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients. At night he writes books, raises kids, and occasionally he forms a band and "tries to make it". Mark is the author of three books, "Distributed Programming with Ruby" (2009), "Programming in CoffeeScript" (2012), and "Conquering the Command Line" (2014). He also runs the weekly Golang screencast site, www.metacasts.tv._
 
-Jeremy Saenz ([@codegansta](https://twitter.com/codegangsta))
-Jeremy AKA @codegangsta is a fellow Gopher, author, speaker and screencaster. You have probably heard about one of his open source projects like Martini, Negroni, Gin, CLI and others. Jeremy is also the voice behind GopherCasts.io and loves teaching people about technology through his programming screencasts.
+**Jeremy Saenz** ([@codegansta](https://twitter.com/codegangsta))
+_Jeremy AKA @codegangsta is a fellow Gopher, author, speaker and screencaster. You have probably heard about one of his open source projects like Martini, Negroni, Gin, CLI and others. Jeremy is also the voice behind GopherCasts.io and loves teaching people about technology through his programming screencasts._
 
 ## Testimonials
+
+Geoff Clitheroe ([@gclitheroe](https://twitter.com/gclitheroe))  
+_"Your training is awesome! Myself and three colleagues recently caught variations of the training at GopherCon and OSCON. We all thought the Bootcamp was the best thing at any of these conferences (and I went to both). Awesome work to Bill for presenting and anyone involved in developing the training. I really liked the structure, emphasis on deeper understanding, me doing a small number of examples to emphasize this, and general content. Night and day to other training which is to often just watching someone else live code. Great work."_
+
+ACL Services ([@ACLServices](https://twitter.com/ACLServices))  
+_"I'd just like to thank you again for just a phenomenal training session. The feedback from everyone was overwhelmingly positive. You probably could tell first hand that there were skeptics at first, but you’ve turned many into golang converts and we are really excited in growing golang adoption internally."_
 
 Joshua Shuster ([@naysaier](https://twitter.com/naysaier))  
 _"I would consider Ardan Studio’s 3 day course to be invaluable. Bill and his staff, being some of the foremost authorities in the Go language, were able to make many of the complex go topics understandable. Covering everything from memory management, all the way up to building concurrency programs and web API's. It has given me the knowledge to write idiomatic Go, and make the best use of it’s features. I would highly their courses to anyone new to Go, or to anyone wanting to widen their existing knowledge."_
@@ -143,10 +109,6 @@ _"The Intro to Go Workshop enabled me to come into class with very little knowle
 Jackie Heitzer ([@JackieHeitzer](https://twitter.com/jackieheitzer))  
 _"Great course and a perfect introduction to Go.  Bill is very friendly and extremely knowledgeable about the Go language and I am excited to speak with him about Go in the future.  The training had an excellent format with hands on coding examples.  After the class I feel as though I have a better understanding of the key concepts, especially how pointers work.  I highly recommend this course to anyone interested in learning more about Go."_
 
-## Partners
-
-[Venture Hive](http://venturehive.com/) | [SendGrid](http://sendgrid.com) | [Iron.io](http://iron.io) | [Galvanize](http://galvanize.com) | [MonogoDB](http://monogdb.com) | [InfluxDB](http://influxdb.com/)
-
 ## Contact Information
 
 William Kennedy  
@@ -160,4 +122,4 @@ ___
 [![Ardan Studios](00-slides/images/ardan_logo.png)](http://www.ardanstudios.com)
 [![GoingGo Blog](00-slides/images/ggb_logo.png)](http://www.goinggo.net)
 ___
-All material is licensed under the [GNU Free Documentation License](https://github.com/ArdanStudios/gotraining/blob/master/LICENSE).
+All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

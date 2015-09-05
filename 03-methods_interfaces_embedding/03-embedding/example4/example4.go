@@ -1,15 +1,13 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
-// https://play.golang.org/p/jfOfrRMPZR
+// https://play.golang.org/p/QSjaJocj5S
 
 // Sample program to show what happens when the outer and inner
 // type implement the same interface.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // notifier is an interface that defined notification
 // type behavior.

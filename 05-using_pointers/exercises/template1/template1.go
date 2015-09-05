@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // https://play.golang.org/p/9_MSdcdlNQ
 
@@ -18,7 +18,7 @@ package main
 
 // Declare a method named Distance that finds the length of the hypotenuse
 // between two points. Pass one point in and return the answer.
-// Forumula is the square root of (x2 - x1)^2 + (y2 - y1)^2
+// Formula is the square root of (x2 - x1)^2 + (y2 - y1)^2
 // Use the math.Pow and math.Sqrt functions.
 
 // main is the entry point for the application.

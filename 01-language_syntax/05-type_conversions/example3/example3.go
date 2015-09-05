@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/Rgoqvg8dNv
 
@@ -52,7 +52,7 @@ func main() {
 	// ./example2.go:48: cannot use minusFive (type int64) as type
 	// time.Duration in argument to now.Add
 
-	// Substract 5 seconds from now using a declared constant.
+	// Subtract 5 seconds from now using a declared constant.
 	lessFiveSeconds := now.Add(-fiveSeconds)
 
 	// Display the values.

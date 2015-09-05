@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // https://play.golang.org/p/5KL4HipSJ-
 
@@ -26,7 +26,7 @@ func New(x int, y int) Point {
 }
 
 // Distance finds the length of the hypotenuse between two points.
-// Forumula is the square root of (x2 - x1)^2 + (y2 - y1)^2
+// Formula is the square root of (x2 - x1)^2 + (y2 - y1)^2
 func (p Point) Distance(p2 Point) float64 {
 	first := math.Pow(float64(p2.X-p.X), 2)
 	second := math.Pow(float64(p2.Y-p.Y), 2)

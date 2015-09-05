@@ -1,5 +1,5 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // http://play.golang.org/p/Pa3mrTCcpB
 
@@ -19,7 +19,7 @@ func main() {
 	// Declare an array pre-populated with friend's names.
 	friends := [5]string{"Joe", "Ed", "Jim", "Erick", "Bill"}
 
-	// Asssign the array of friends to the names array.
+	// Assign the array of friends to the names array.
 	names = friends
 
 	// Display each name in names.

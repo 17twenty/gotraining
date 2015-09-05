@@ -1,47 +1,50 @@
-// All material is licensed under the GNU Free Documentation License
-// https://github.com/ArdanStudios/gotraining/blob/master/LICENSE
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
 
 // https://docs.google.com/document/d/1CxgUBPlx9iJzkz9JWkb6tIpTe5q32QDmz8l0BouG0Cw/view
 
-// http://play.golang.org/p/931Cw6uzsn
+// http://play.golang.org/p/IIubKW34GA
 
-// go build -gcflags -m
-
-// Sample program to show varaibles stay on or escape from the stack.
+// Sample program to show how the backing array for a referene type can
+// be placed contiguous in memory with the header value. Must be run locally
+// and not in the playground.
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unsafe"
+)
 
-// main is the entry point for the application.
 func main() {
-	stayOnStack()
-	escapeToHeap()
+	bs := []byte("HELLO")
+	s := string(bs)
+
+	// Capture the address to the slice structure
+	address := unsafe.Pointer(&s)
+
+	// Capture the address where the length
+	lenAddr := uintptr(address) + uintptr(8)
+
+	// Create pointers to the length
+	lenPtr := (*int)(unsafe.Pointer(lenAddr))
+
+	// Create a pointer to the underlying array
+	arrPtr := (*[5]byte)(unsafe.Pointer(*(*uintptr)(address)))
+
+	fmt.Printf("String Addr[%p] Len Addr[0x%x] Arr Addr[%p]\n",
+		address,
+		lenAddr,
+		arrPtr)
+
+	fmt.Printf("String Length[%d]\n",
+		*lenPtr)
+
+	for index := 0; index < *lenPtr; index++ {
+		fmt.Printf("[%d] %p %c\n",
+			index,
+			&(*arrPtr)[index],
+			(*arrPtr)[index])
+	}
+
+	fmt.Printf("\n\n")
 }
-
-// stayOnStack shows how the variable does not escape.
-func stayOnStack() {
-	// Declare a variable of type integer.
-	var x int
-
-	// Display the address of the variable.
-	println("Stack Addr:", &x)
-}
-
-// escapeToHeap shows how the variable does escape.
-func escapeToHeap() {
-	// Declare a variable of type integer.
-	var x int
-
-	// Display the address of the variable.
-	fmt.Println("Heap Addr:", &x)
-}
-
-/*
-./example1.go:20: can inline stayOnStack
-./example1.go:15: inlining call to stayOnStack
-./example1.go:31: moved to heap: x
-./example1.go:34: &x escapes to heap
-./example1.go:34: escapeToHeap ... argument does not escape
-./example1.go:15: stayOnStack &x does not escape
-./example1.go:25: stayOnStack &x does not escape
-*/
